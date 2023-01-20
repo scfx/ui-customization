@@ -1,3 +1,7 @@
 .label-info {
     background-color: red !important;
 }
+
+.badge.badge-info {
+    background-color: red !important;
+}

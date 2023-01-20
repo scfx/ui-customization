@@ -15,9 +15,9 @@
         "navigator-platform-logo": "url(/apps/public/ui-assets-t963445303/logo-nav.jpeg?nocache=17071227117957966)",
         "brand-logo-img": "url(/apps/public/ui-assets-t963445303/logo.jpeg?nocache=4422452192375437)"
     },
-    "globalTitle": "Customer XYZ",
+    "globalTitle": "ABB",
     "faviconUrl": "/apps/public/ui-assets-t963445303/favicon.ico?nocache=6115324270266125",
     "extraCssUrls": [
-        "branding.css"
+        "/apps/public/public-options/branding.css"
     ]
 }
