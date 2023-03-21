@@ -9,3 +9,5 @@ To deploy:
         "/apps/public/public-options/branding.css"
     ] to the options.json file.
 5. Extend you custom bradning in the branding.css file.
+6. Zip via $zip ui-assets branding.css options.json cumulocity.json
+7. Upload new application via c8ycli deploy or upload the zip via UI.
