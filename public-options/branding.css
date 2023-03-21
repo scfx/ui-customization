@@ -1,7 +1,3 @@
-.label-info {
-    background-color: red !important;
-}
-
-.badge.badge-info {
-    background-color: red !important;
+.c8y-ui-action-bar {
+    --component-background: red !important;
 }

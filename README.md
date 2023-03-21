@@ -2,11 +2,10 @@
 
 To deploy:
 
-* zip the app you want to deploy, say ui-assets:
-
-      cd ui-assets
-      jar -cvfM ui-assets.zip *json *html *svg *ico *css
-
-* deploy it to cumulocity, either by uploading the zip through the UI, or by issuing:
-
-       c8ycli deploy -u https://<your_tenant>.cumulocity.com  ui-assets.zip
+1. Create a branding in your cumulocity tenant
+2. Download your branding in the created application "public-option". The file should have the name ui-assets.zip.
+3. Unzip ui-assets.zip and replace the options.json file.
+4. Add "extraCssUrls": [
+        "/apps/public/public-options/branding.css"
+    ] to the options.json file.
+5. Extend you custom bradning in the branding.css file.
