@@ -1,24 +1,23 @@
 {
-  "brandingCssVars": {
-      "brand-logo-img-height": "40%",
-      "header-color": "#20a22e",
-      "navigator-font-family": "var(--font-family-base)",
-      "navigator-platform-logo-height": "40%",
-      "navigator-active-bg": "#11751C",
-      "brand-complementary": "#20a22e",
-      "brand-primary": "#20a22e",
-      "brand-light": "#F9990D",
-      "brand-dark": "#11751C",
-      "navigator-platform-logo": "url(/apps/public/ui-assets/logo.svg)",
-      "brand-logo-img": "url(/apps/public/ui-assets/logo-main.svg)"
-  },
-  "globalTitle": "Pied piper",
-  "faviconUrl": "/apps/public/ui-assets/favicon.ico",
-  "languages": {
-    "ru": {
-      "name": "Russian",
-      "nativeName": "русский язык",
-      "url": "/apps/public/ui-assets/ru.json"
-    }
-  }
+    "brandingCssVars": {
+        "brand-logo-img-height": "100%",
+        "navigator-title-color": "black",
+        "navigator-font-family": "var(--font-family-base)",
+        "navigator-platform-logo-height": "50%",
+        "navigator-header-bg": "#F8F8F8",
+        "navigator-text-color": "black",
+        "navigator-active-color": "red",
+        "navigator-active-bg": "white",
+        "brand-primary": "red",
+        "brand-light": "red",
+        "navigator-bg-color": "#F8F8F8",
+        "brand-dark": "#000000",
+        "navigator-platform-logo": "url(/apps/public/ui-assets-t963445303/logo-nav.jpeg?nocache=17071227117957966)",
+        "brand-logo-img": "url(/apps/public/ui-assets-t963445303/logo.jpeg?nocache=4422452192375437)"
+    },
+    "globalTitle": "Title",
+    "faviconUrl": "/apps/public/ui-assets-t963445303/favicon.ico?nocache=6115324270266125",
+    "extraCssUrls": [
+        "/apps/public/public-options/branding.css"
+    ]
 }
